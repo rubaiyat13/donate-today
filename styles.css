@@ -34,41 +34,42 @@ body {
     align-items: center;
 }
 
-.btn-primary{
-    color:white;
+.btn-primary {
+    color: white;
     background-color: #FF5959;
     border-radius: 7px;
     padding: 18px 35px;
     font-size: large;
-    
+    border: none;
 }
 
-
-.btn-primary:hover{
+.btn-primary:hover {
     background-color: #ff595963;
 }
 
-.banner-title{
+.banner-title {
     text-align: center;
     padding: 10%;
 }
-.banner-subtitle{
+
+.banner-subtitle {
     margin-bottom: 30px;
     font-size: 45px;
 }
-.banner-subtitle-p{
+
+.banner-subtitle-p {
     font-size: 20px;
 }
 
 
-.btn-container{
+.btn-container {
     display: flex;
     justify-content: center;
     gap: 35px;
 }
-    
 
-.btn-TK{
+
+.btn-TK {
     margin-top: 5%;
     background-color: rgba(223, 222, 222, 0.5);
     border-radius: 15px;
@@ -81,16 +82,15 @@ body {
 }
 
 
-.btn-TK:hover{
+.btn-TK:hover {
     border: 3px solid #FF5959;
     color: #FF5959;
     background-color: rgba(255, 89, 89, 0.151);
 }
 
-.wrapper{
+.wrapper {}
 
-}
-.wrapper input{
+.wrapper input {
     border: none;
     border-bottom: 2px solid silver;
     justify-content: center;
@@ -98,10 +98,11 @@ body {
     font-size: 25px;
     width: 800px;
 
-    
+
 }
-.wrapper button{
-    color:white;
+
+.wrapper button {
+    color: white;
     background-color: #FF5959;
     border-radius: 7px;
     padding: 18px 35px;
@@ -109,14 +110,189 @@ body {
     margin-top: 3%;
 }
 
-.nav-title{
+.nav-title {
     text-align: center;
+
 }
 
-.nav-subtitle{
+.nav-subtitle {
     margin-bottom: 30px;
     font-size: 45px;
 }
-.nav-subtitle-p{
+
+.nav-subtitle-p {
     font-size: 20px;
+}
+
+.block {
+    display: flex;
+    gap: 25px;
+    padding: 0px 60px;
+    text-align: left;
+}
+
+.block-element-A {
+    margin-top: 3%;
+    background-color: #b4dee4;
+    cursor: pointer;
+    padding: 80px 30px 15px;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.block-element-B {
+    margin-top: 3%;
+    background-color: #e7c3c3;
+    cursor: pointer;
+    padding: 80px 30px 15px;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.block-element-C {
+    margin-top: 3%;
+    background-color: blanchedalmond;
+    cursor: pointer;
+    padding: 80px 30px 15px;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.block-img {
+    width: 58px;
+    height: auto;
+}
+
+.bricks {
+    display: flex;
+    padding: 0px 60px;
+    margin-top: 10%;
+    gap: 150px;
+}
+
+.bricks-img {
+    height: 450px;
+    width: 450px;
+    border-radius: 1%;
+}
+
+.bricks-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bricks-title {
+    font-size: 58px;
+}
+
+.bricks-A {
+    font-size: 20px;
+}
+
+.bricks-B {
+    font-size: 20px;
+}
+
+.btn-secondary {
+    color: white;
+    background-color: #FF5959;
+    border-radius: 7px;
+    font-size: large;
+    height: 50px;
+    width: 220px;
+    border: none;
+
+}
+
+.btn-secondary:hover {
+    background-color: #ff595963;
+}
+
+.module {
+    text-align: center;
+    padding: 0px 60px;
+    margin-top: 10%;
+    gap: 150px;
+
+}
+
+.module-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.module-title {
+    font-size: 58px;
+}
+
+.module-p {
+    font-size: 20px;
+}
+
+.module-submit {
+    justify-content: center;
+    display: flex;
+    background-color: #FFF4D6;
+    height: 180px;
+    width: 800px;
+    margin: 4% auto;
+    align-items: center;
+}
+
+.module-input {
+    height: 45px;
+    width: 280px;
+    border: none;
+    background-color: rgb(221, 221, 221);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 2%;
+    justify-content: center;
+
+}
+
+.module-btn {
+    height: 45px;
+    width: 120px;
+    border: none;
+    background-color: #FF5959;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    justify-content: center;
+}
+
+.module-btn:hover {
+    background-color: #ff595963;
+}
+
+.Termination {
+    margin-top: 10%;
+    background-color: #0B0D17;
+    height: 180px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Termination-title {
+    color: #FF5959;
+    font-family: 'Lobster', sans-serif;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.Termination-p {
+    color: rgb(167, 162, 162);
 }
