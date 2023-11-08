@@ -9,7 +9,7 @@ body {
 }
 
 .banner-card {
-    background-image: url("/donate-today-main/images/donation1.jpg");
+    background-image: url("donate-today-main/images/donation1.jpg");
     width: 100%;
     height: 600px;
     object-fit: cover;
